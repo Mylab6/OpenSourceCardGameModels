@@ -24,8 +24,7 @@ GameCard _$GameCardFromJson(Map<String, dynamic> json) => GameCard(
       isPersistent: json['isPersistent'] as bool?,
       imageUri: json['imageUri'] as String,
       notes: json['notes'] as String,
-      backgroundColor:
-          GameCard._colorFromJson((json['backgroundColor'] as num).toInt()),
+      backgroundColor: (json['backgroundColor'] as num).toInt(),
     );
 
 Map<String, dynamic> _$GameCardToJson(GameCard instance) => <String, dynamic>{
@@ -44,5 +43,5 @@ Map<String, dynamic> _$GameCardToJson(GameCard instance) => <String, dynamic>{
       'isPersistent': instance.isPersistent,
       'imageUri': instance.imageUri,
       'notes': instance.notes,
-      'backgroundColor': GameCard._colorToJson(instance.backgroundColor),
+      'backgroundColor': instance.backgroundColor,
     };
