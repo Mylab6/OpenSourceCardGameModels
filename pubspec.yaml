@@ -9,7 +9,7 @@ environment:
 # Add regular dependencies here.
 dependencies:
   json_annotation: ^4.9.0
-  # path: ^1.8.0
+  # path: ^1.8.
 
 dev_dependencies:
   lints: ^5.0.0
