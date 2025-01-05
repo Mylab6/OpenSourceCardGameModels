@@ -15,6 +15,8 @@ enum EffectType {
   destroy_target_driver,
   destroy_own_drivers,
   destroy_other_players_drivers,
+  hit_points,
+  attack_power,
   custom,
 }
 

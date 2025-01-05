@@ -36,6 +36,8 @@ const _$EffectTypeEnumMap = {
   EffectType.destroy_target_driver: 'destroy_target_driver',
   EffectType.destroy_own_drivers: 'destroy_own_drivers',
   EffectType.destroy_other_players_drivers: 'destroy_other_players_drivers',
+  EffectType.hit_points: 'hit_points',
+  EffectType.attack_power: 'attack_power',
   EffectType.custom: 'custom',
 };
 

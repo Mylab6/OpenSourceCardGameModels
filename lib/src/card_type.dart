@@ -7,6 +7,8 @@ enum CardType {
   virus, // Spells that can back fire
   sysAgent, // Counter Spells
   driver, // Enchantments that stay on the board
+  bot, // Creatures, not used in this game
+  // but I want to allow others using the desinger to user it
 }
 
 extension CardTypeExtension on CardType {
